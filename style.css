@@ -1,0 +1,33 @@
+/* Cor de fundo do corpo */
+body {
+    background-color: #D8B0D2;
+}
+
+/* Cor de fundo dos cartões */
+.cartao {
+    background-color: #F8A1C1;
+    border: 1px solid #D47E97;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* Cor do texto do título (categoria) */
+.cartao h3 {
+    color: #4CAF50;
+}
+
+/* Cor do texto da pergunta */
+.cartao__conteudo__pergunta p {
+    color: #333;
+}
+
+/* Cor do texto da resposta */
+.cartao__conteudo__resposta p {
+    color: #555;
+}
+
+/* Quando o cartão está ativo (virado) */
+.cartao.active {
+    background-color: #F19CBB;
+}
